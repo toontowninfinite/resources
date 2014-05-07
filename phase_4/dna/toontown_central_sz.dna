@@ -806,8 +806,8 @@ group "toontownCentral" [
      baseline [
       code [ "mickey" ]
       color [ 1 1 0 1 ]
-      pos [ 0.3 0 -0.8 ]
-      scale [ 2.0 1 2.2 ]
+      pos [ 0.3 0 -0.6 ]
+      scale [ 2.1 1 2.1 ]
       kern [ -0.099751 ]
       width [ 134.553 ]
       height [ 134.553 ]
@@ -849,6 +849,18 @@ group "toontownCentral" [
    code [ "toontown_central" ]
    pos [ 9.15527e-005 -1.90735e-006 2.6226e-006 ]
    nhpr [ -90 0 -0 ]
+  ]
+  prop "prop_tt_m_ara_ttc_sillyMeterSign_groupA_DNARoot" [
+   code [ "prop_tt_m_ara_ttc_sillyMeterSign_groupA" ]
+   pos [ 99.83 11.67 4 ]
+   nhpr [ 300.96 0 0 ]
+   scale [ 1.41 1.41 1.41 ]
+  ]
+  prop "prop_tt_m_ara_ttc_sillyMeterSign_groupB_DNARoot" [
+   code [ "prop_tt_m_ara_ttc_sillyMeterSign_groupB" ]
+   pos [ 99.83 -9.75 4 ]
+   nhpr [ 284.51 0 0 ]
+   scale [ 1.41 1.41 1.41 ]
   ]
   prop "prop_tree_large_ur_DNARoot" [
    code [ "prop_tree_large_ur" ]
