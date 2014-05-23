@@ -281,7 +281,6 @@ POS localToon 0.776 14.6 0
 HPR localToon 47.5 0 0
 FINISH_QUEST_MOVIE
 
-
 ID quest_assign_110
 DEBUG "quest assign 110"
 LOAD_DIALOGUE harryDialogue_01 "phase_3.5/audio/dial/CC_harry_tutorial_questscript01.mp3"
@@ -559,7 +558,6 @@ REPARENTTO frame hidden
 CHAT_CONFIRM npc QuestScript145_2 1
 UPON_TIMEOUT FUNCTION frame "removeNode"
 FINISH_QUEST_MOVIE
-
 
 ID quest_assign_150
 CHAT_CONFIRM npc QuestScript150_1
