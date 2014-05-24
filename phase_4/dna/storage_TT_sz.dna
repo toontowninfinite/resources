@@ -56,6 +56,10 @@ place_model "phase_13/models/parties/danceFloor" [
  store_node [ "prop" "prop_danceFloor" "" ]
         ]
 
+place_model "phase_3.5/models/props/goo_b" [
+ store_node [ "prop" "prop_goo_b" "" ]
+        ]
+
 place_model "phase_4/models/modules/gazebo" [
 	store_node [ "prop" "prop_gazebo" "" ]
         ]

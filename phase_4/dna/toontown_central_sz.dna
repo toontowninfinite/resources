@@ -963,6 +963,12 @@ group "toontownCentral" [
    nhpr [ 300.96 0 0 ]
    scale [ 0.9 0.9 0.9 ]
   ]
+  prop "prop_goo_b_DNARoot" [
+   code [ "prop_goo_b" ]
+   pos [ 54.609 2.357 4.4 ]
+   nhpr [ 450 0 0 ]
+   scale [ 1.5 1.5 1.5 ]
+  ]
   prop "prop_tree_fat_ur_DNARoot" [
    code [ "prop_tree_fat_ur" ]
    pos [ 116.09 54.81 2.5 ]
