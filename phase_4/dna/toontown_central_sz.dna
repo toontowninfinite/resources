@@ -957,6 +957,12 @@ group "toontownCentral" [
    pos [ 103.397 79.4494 2.5 ]
    nhpr [ 135 0 0 ]
   ]
+  prop "prop_danceFloor_DNARoot" [
+   code [ "prop_danceFloor" ]
+   pos [ 54.609 2.357 3.9 ]
+   nhpr [ 300.96 0 0 ]
+   scale [ 0.9 0.9 0.9 ]
+  ]
   prop "prop_tree_fat_ur_DNARoot" [
    code [ "prop_tree_fat_ur" ]
    pos [ 116.09 54.81 2.5 ]
