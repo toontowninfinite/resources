@@ -538,7 +538,7 @@ ID quest_assign_141
 CHAT_CONFIRM npc QuestScript141_1 1
 FINISH_QUEST_MOVIE
 
-ID quest_assign_145
+ID quest_incomplete_145
 CHAT_CONFIRM npc QuestScript145_1 1
 LOAD frame "phase_4/models/gui/tfa_images" "FrameBlankA"
 LOAD tunnel "phase_4/models/gui/tfa_images" "tunnelSignA"
@@ -556,7 +556,7 @@ UPON_TIMEOUT FUNCTION frame "removeNode"
 FINISH_QUEST_MOVIE
 
 
-ID quest_assign_150
+ID quest_incomplete_150
 CHAT_CONFIRM npc QuestScript150_1
 ARROWS_ON  1.05 0.51 -120 1.05 0.51 -120
 SHOW_FRIENDS_LIST
