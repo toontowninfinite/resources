@@ -382,12 +382,6 @@ SHOW localToon
 LOCAL_CHAT_CONFIRM npc QuestScriptTutorialBlocker_3 blockerDialogue_03
 OBSCURE_CHAT 1 0
 SHOW chatScButton
-POS chatScButton -0.3 0 -0.1
-SCALE chatScButton 2.0 2.0 2.0
-LERP_COLOR_SCALE chatScButton 1 1 1 0 1 1 1 1 0.5
-WAIT 0.5
-LERP_POS chatScButton -1.129 0 0.928 0.6
-LERP_SCALE chatScButton 1.179 1.179 1.179 0.6
 WAIT 0.6 
 ARROWS_ON -0.92 0.91 180 -1.12 0.74 -90 
 LOCAL_CHAT_PERSIST npc QuestScriptTutorialBlocker_4 blockerDialogue_04
@@ -403,12 +397,6 @@ LOCAL_CHAT_CONFIRM npc QuestScriptTutorialBlocker_5 "CFReversed" blockerDialogue
 LOCAL_CHAT_CONFIRM npc QuestScriptTutorialBlocker_6 "CFReversed" blockerDialogue_06
 OBSCURE_CHAT 0 0 
 SHOW chatNormalButton
-POS chatNormalButton -0.3 0 -0.1
-SCALE chatNormalButton 2.0 2.0 2.0
-LERP_COLOR_SCALE chatNormalButton 1 1 1 0 1 1 1 1 0.5
-WAIT 0.5
-LERP_POS chatNormalButton -1.2647 0 0.928 0.6
-LERP_SCALE chatNormalButton 1.179 1.179 1.179 0.6
 WAIT 0.6 
 LOCAL_CHAT_CONFIRM npc QuestScriptTutorialBlocker_7 "CFReversed" blockerDialogue_07
 LOCAL_CHAT_CONFIRM npc QuestScriptTutorialBlocker_8 1 "CFReversed" blockerDialogue_08
@@ -428,10 +416,6 @@ WAIT 0.75
 REPARENTTO npc hidden
 FREE_LOCALTOON
 UPON_TIMEOUT ARROWS_OFF
-UPON_TIMEOUT POS chatScButton -1.129 0 0.928
-UPON_TIMEOUT SCALE chatScButton 1.179 1.179 1.179 
-UPON_TIMEOUT POS chatNormalButton -1.2647 0 0.928
-UPON_TIMEOUT SCALE chatNormalButton 1.179 1.179 1.179 
 UPON_TIMEOUT OBSCURE_CHAT 0 0 
 UPON_TIMEOUT REPARENTTO camera localToon
 FINISH_QUEST_MOVIE
