@@ -850,18 +850,6 @@ group "toontownCentral" [
    pos [ 9.15527e-005 -1.90735e-006 2.6226e-006 ]
    nhpr [ -90 0 -0 ]
   ]
-  prop "prop_tt_m_ara_ttc_sillyMeterSign_groupA_DNARoot" [
-   code [ "prop_tt_m_ara_ttc_sillyMeterSign_groupA" ]
-   pos [ 99.83 11.67 4 ]
-   nhpr [ 300.96 0 0 ]
-   scale [ 1.41 1.41 1.41 ]
-  ]
-  prop "prop_tt_m_ara_ttc_sillyMeterSign_groupB_DNARoot" [
-   code [ "prop_tt_m_ara_ttc_sillyMeterSign_groupB" ]
-   pos [ 99.83 -9.75 4 ]
-   nhpr [ 284.51 0 0 ]
-   scale [ 1.41 1.41 1.41 ]
-  ]
   prop "prop_tree_large_ur_DNARoot" [
    code [ "prop_tree_large_ur" ]
    pos [ -79.7819 79.5309 0 ]
@@ -1084,6 +1072,12 @@ group "toontownCentral" [
     nhpr [ 168 81 0 ]
     scale [ 4 4 4 ]
    ]
+  ]
+  prop "animated_prop_HQPeriscopeAnimatedProp_DNARoot" [
+    code [ "animated_prop_HQPeriscopeAnimatedProp" ]
+    pos [ 23.69 36.75 20.48 ]
+    nhpr [ 273.58 0 0 ]
+    scale [ 4 4 4 ]
   ]
   flat_building "sz0:random_DNARoot" [
    pos [ -148.706 -25.452 -0.18 ]
