@@ -850,33 +850,6 @@ group "toontownCentral" [
    pos [ 9.15527e-005 -1.90735e-006 2.6226e-006 ]
    nhpr [ -90 0 -0 ]
   ]
-  prop "prop_cake_stage_DNARoot" [
-   code [ "prop_cake_stage" ]
-   pos [ 68.08 1.67 4.025 ]
-   nhpr [ 0 0 0 ]
-   scale [ 1.09 1.09 1.09 ]
-  ]
-  prop "prop_ttc_barriers_DNARoot" [
-   code [ "prop_ttc_barriers" ]
-   pos [ 0 0 0 ]
-   nhpr [ 0 0 0 ]
-  ]
-  prop "prop_grand_opening_banner_DNARoot" [
-   code [ "prop_grand_opening_banner" ]
-   pos [ 116.57 24.30 5 ]
-   nhpr [ 270 0 0 ]
-  ]
-  prop "prop_balloon_archway_spiraled_DNARoot" [
-   code [ "prop_balloon_archway_spiraled" ]
-   pos [ 68.86 0 4.025 ]
-   nhpr [ 270 0 0 ]
-   scale [ 2.08 2.08 2.08 ]
-  ]
-  prop "prop_balloon_set_cake_DNARoot" [
-   code [ "prop_balloon_set_cake" ]
-   pos [ 0 0 0 ]
-   nhpr [ 0 0 0 ]
-  ]
   prop "prop_tree_large_ur_DNARoot" [
    code [ "prop_tree_large_ur" ]
    pos [ -79.7819 79.5309 0 ]

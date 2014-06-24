@@ -58,3 +58,26 @@ place_model "phase_4/models/modules/toonhall" [
 place_model "phase_4/models/props/exteriorfish-zero" [
 	store_node [ "prop" "animated_prop_PetShopFishAnimatedProp" "exteriorfish" ]
 	]
+
+//Grand Opening
+
+place_model "phase_4/models/events/cake_stage" [
+	store_node [ "prop" "prop_cake_stage" "" ]
+        ]
+
+place_model "phase_4/models/events/grand_opening_banner" [
+	store_node [ "prop" "prop_grand_opening_banner" "" ]
+        ]
+
+place_model "phase_4/models/events/ttc_barriers" [
+	store_node [ "prop" "prop_ttc_barriers" "" ]
+        ]
+
+place_model "phase_4/models/events/balloon_archway_spiraled" [
+	store_node [ "prop" "prop_balloon_archway_spiraled" "" ]
+        ]
+		
+place_model "phase_4/models/events/balloon_archway_spiraled" [
+	store_node [ "prop" "prop_balloon_archway_spiraled" "" ]
+        ]
+
