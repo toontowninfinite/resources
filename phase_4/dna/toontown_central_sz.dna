@@ -1133,16 +1133,6 @@ group "toontownCentral" [
     ]
    ]
   ]
-  prop "prop_toontown_central_fountain_DNARoot" [
-   code [ "prop_toontown_central_fountain" ]
-   pos [ 93.2057 -106.482 2.50002 ]
-   nhpr [ 0 0 0 ]
-  ]
-  prop "prop_mickey_on_horse_DNARoot" [
-   code [ "prop_mickey_on_horse" ]
-   pos [ 73.6829 121.026 2.49996 ]
-   nhpr [ 0 0 0 ]
-  ]
   prop "prop_post_one_light_DNARoot" [
    code [ "prop_post_one_light" ]
    pos [ 3.84337 118.504 3 ]
