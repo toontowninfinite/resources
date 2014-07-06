@@ -85,7 +85,7 @@ group "daisysGarden" [
    ]
   ]
   node "buildings" [
-   prop "prop_chip_dale_enterance_DNARoot" [
+   prop "d_linktunnel_gz_17000_DNARoot" [
     code [ "prop_chip_dale_enterance" ]
     pos [ -264.137 -15.4392 0.227776 ]
     nhpr [ 105 -0.422594 0.309814 ]
