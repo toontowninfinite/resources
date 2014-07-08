@@ -1066,12 +1066,6 @@ group "minniesMelodyLand" [
     scale [ 1.5 1.5 1.5 ]
     color [ 0.75 0.75 0.75 1 ]
    ]
-   prop "prop_blockade_DNARoot" [
-    code [ "prop_blockade" ]
-    pos [ -13.42 -113.71 11 ]
-    nhpr [ 180 0 0 ]
-    scale [ 0.42 0.42 0.42 ]
-   ]
    prop "neighborhood_sign_BR_DNARoot" [
     code [ "neighborhood_sign_BR" ]
     pos [ -73.6 -35.66 6.47 ]

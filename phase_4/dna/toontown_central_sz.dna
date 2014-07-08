@@ -1278,12 +1278,6 @@ group "toontownCentral" [
    pos [ -125 60 0 ]
    nhpr [ 150 0 0 ]
   ]
-  prop "prop_blockade_DNARoot" [
-   code [ "prop_blockade" ]
-   pos [ -119.65 71.8 4 ]
-   nhpr [ 50 0 0 ]
-   scale [ 0.4 0.4 0.4 ]
-  ]
   landmark_building "sz22:toon_landmark_TT_pet_shop_DNARoot" [
    code [ "toon_landmark_TT_pet_shop" ]
    building_type [ "petshop" ]

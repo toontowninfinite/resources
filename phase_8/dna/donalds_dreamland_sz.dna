@@ -160,12 +160,6 @@ group "donaldsDreamland" [
     pos [ 142.443 27.4259 -14.9994 ]
     nhpr [ 30 0 0 ]
    ]
-   prop "prop_blockade_DNARoot" [
-    code [ "prop_blockade" ]
-    pos [ 42.767 97.60 4 ]
-    nhpr [ 0 0 0 ]
-	scale [ 0.42 0.42 0.42 ]
-   ]
   ]
   node "group_0" [
    node "group_1" [
