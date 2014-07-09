@@ -17884,12 +17884,7 @@ group "donaldsDreamland" [
     nhpr [ 120 0 -0 ]
     scale [ 0.789164 0.789164 0.789164 ]
    ]
-   prop "prop_construction_sign_DNARoot" [
-    code [ "prop_construction_sign" ]
-    pos [ -146.735 -76.4866 -0.496864 ]
-    nhpr [ 477 0 0 ]
-   ]
-   prop "d_linktunnel_cashhq_12000_DNARoot" [
+   prop "linktunnel_cashhq_12000_DNARoot" [
     code [ "prop_cog_tunnel" ]
     pos [ -146.735 -76.4866 -0.496864 ]
     nhpr [ -60 0 -0 ]
