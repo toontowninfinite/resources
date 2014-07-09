@@ -5976,7 +5976,12 @@ group "daisysGarden" [
     pos [ -254.625 386.048 0 ]
     nhpr [ -0 0 -0 ]
    ]
-   prop "linktunnel_sellhq_11000_DNARoot" [
+   prop "prop_construction_sign_DNARoot" [
+    code [ "prop_construction_sign" ]
+    pos [ -310.947 315.883 -0.475 ]
+    nhpr [ 360 0 0 ]
+   ]
+   prop "d_linktunnel_sellhq_11000_DNARoot" [
     code [ "prop_cog_tunnel" ]
     pos [ -310.947 315.883 -0.475 ]
     nhpr [ -180 -0.115471 -2.01896e-008 ]

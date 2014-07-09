@@ -17352,7 +17352,7 @@ group "donaldsDreamland" [
   group "props" [
    prop "neighborhood_sign_cashBotHQ_DNARoot" [
     code [ "neighborhood_sign_cashBotHQ" ]
-    pos [ -64.354 -7.20855 0 ]
+    pos [ -67.445 -9.711 0 ]
     nhpr [ -150 0 -0 ]
     color [ 0.47 0.49 0.66 1 ]
    ]
@@ -17884,7 +17884,12 @@ group "donaldsDreamland" [
     nhpr [ 120 0 -0 ]
     scale [ 0.789164 0.789164 0.789164 ]
    ]
-   prop "linktunnel_cashhq_12000_DNARoot" [
+   prop "prop_construction_sign_DNARoot" [
+    code [ "prop_construction_sign" ]
+    pos [ -146.735 -76.4866 -0.496864 ]
+    nhpr [ 477 0 0 ]
+   ]
+   prop "d_linktunnel_cashhq_12000_DNARoot" [
     code [ "prop_cog_tunnel" ]
     pos [ -146.735 -76.4866 -0.496864 ]
     nhpr [ -60 0 -0 ]

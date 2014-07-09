@@ -7662,7 +7662,7 @@ group "theBurrrgh" [
    ]
   ]
   group "props" [
-   prop "linktunnel_lawhq_13000_DNARoot" [
+   prop "d_linktunnel_lawhq_13000_DNARoot" [
     code [ "prop_cog_tunnel" ]
     pos [ 205.292 370 -0.414477 ]
     nhpr [ -90 0 0 ]
@@ -7720,6 +7720,11 @@ group "theBurrrgh" [
     ]
    ]
   ]
+  prop "prop_construction_sign_DNARoot" [
+    code [ "prop_construction_sign" ]
+    pos [ 205.292 370 -0.414477 ]
+    nhpr [ 90 0 0 ]
+   ]
   prop "prop_tt_m_ara_gen_tunnelAheadSign_DNARoot" [
    code [ "prop_tt_m_ara_gen_tunnelAheadSign" ]
    pos [ 226.921 378.492 -0.500034 ]
