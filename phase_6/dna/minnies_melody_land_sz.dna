@@ -1040,6 +1040,12 @@ group "minniesMelodyLand" [
     pos [ -106.052 -62.6765 25.5799 ]
     nhpr [ 90 0 0 ]
    ]
+  prop "prop_blockade_DNARoot" [
+   code [ "prop_blockade" ]
+   pos [ -12.067 -113.140 10.14 ]
+   nhpr [ 182 0 0 ]
+   scale [ 0.42 0.42 0.42 ]
+  ]
    prop "prop_tree_small_ul_DNARoot" [
     code [ "prop_tree_small_ul_MM" ]
     pos [ -100.97 -42.1847 6.5 ]

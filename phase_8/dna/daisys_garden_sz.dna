@@ -17,6 +17,12 @@ group "daisysGarden" [
     pos [ 26.67 40.1 0.06 ]
     nhpr [ 165 0 0 ]
    ]
+  prop "prop_blockade_DNARoot" [
+   code [ "prop_blockade" ]
+   pos [ 43.398 11.977 4.14 ]
+   nhpr [ -171 0 0 ]
+   scale [ 0.42 0.42 0.42 ]
+   ]
    prop "prop_tree_small_ur_DNARoot" [
     code [ "prop_tree_small_ur" ]
     pos [ 80 80 0 ]

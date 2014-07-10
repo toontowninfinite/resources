@@ -1192,6 +1192,12 @@ group "donaldsDock" [
     nhpr [ 135 0 0 ]
     scale [ 0.7 0.7 0.7 ]
    ]
+  prop "prop_blockade_DNARoot" [
+   code [ "prop_blockade" ]
+   pos [ 39.004 -84.604 7.20 ]
+   nhpr [ 198.286 0 0 ]
+   scale [ 0.42 0.42 0.42 ]
+  ]
    prop "prop_palm_tree_topflat_DNARoot" [
     code [ "prop_palm_tree_topflat" ]
     pos [ -100 85 3.2338 ]

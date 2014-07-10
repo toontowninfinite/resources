@@ -870,6 +870,22 @@ group "toontownCentral" [
    pos [ -60.94 -8.8 -2 ]
    nhpr [ -178 0 0 ]
   ]
+  prop "prop_blockade_DNARoot" [
+   code [ "prop_blockade" ]
+   pos [ -120.49 70.90 4.14 ]
+   nhpr [ 48.81 0 0 ]
+   scale [ 0.42 0.42 0.42 ]
+  ]
+   prop "prop_barrier_cone_DNARoot" [
+    code [ "prop_barrier_cone" ]
+    pos [ -115 72 0.525 ]
+    nhpr [ 112 0 0 ]
+   ]
+   prop "prop_barrier_cone_DNARoot" [
+    code [ "prop_barrier_cone" ]
+    pos [ -123.265 65.770 0.525 ]
+    nhpr [ 54 0 0 ]
+   ]
   prop "prop_tree_small_ur_DNARoot" [
    code [ "prop_tree_small_ur" ]
    pos [ 119.621 -127.865 2.49998 ]
