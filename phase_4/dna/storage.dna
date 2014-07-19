@@ -363,7 +363,7 @@ model "phase_4/models/props/construction_sign" [
 // We switched the interface font from impress to humanist
 // Warning!  This is overridden in PlayGame.py
 store_font [ "font" "humanist"
-             "phase_3/models/fonts/Humanist" ]
+             "phase_3/models/fonts/ImpressBT.ttf" ]
 
 // Warning!  This is overridden in PlayGame.py
 store_font [ "font" "mickey"
@@ -373,8 +373,8 @@ store_font [ "font" "mickey"
 // Warning!  This is overridden in PlayGame.py
 store_font [ "font" "suit"
              "phase_3/models/fonts/vtRemingtonPortable.ttf" ]
-			 
-					 
+
+
 model "phase_3.5/models/props/mickeySZ" [
 	store_node [ "graphic" "mickeySZ" ]
 	]
