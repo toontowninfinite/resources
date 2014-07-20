@@ -227,7 +227,7 @@ group "toontownCentral" [
   ]
   landmark_building "tb1:toon_landmark_TT_A3_DNARoot" [
    code [ "toon_landmark_TT_A3" ]
-   title [ "" ]
+   title [ "All Smiles Tooth Repair" ]
    pos [ 753.785 388.149 -0.0138171 ]
    nhpr [ 85.9997 -4.16882e-010 0.0138962 ]
    door [
