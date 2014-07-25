@@ -706,7 +706,7 @@ group "minniesMelodyLand" [
     nhpr [ 0 0 0 ]
     prop "animated_prop_HQPeriscopeAnimatedProp_DNARoot" [
      code [ "animated_prop_HQPeriscopeAnimatedProp" ]
-     pos [ 6.17 -13.8 21.37 ]
+     pos [ 6.0 -12 20.8 ]
      nhpr [ 110 0 0 ]
      scale [ 4 4 4 ]
     ]
@@ -1065,6 +1065,12 @@ group "minniesMelodyLand" [
     nhpr [ 0 0 0 ]
     scale [ 1.5 1.5 1.5 ]
     color [ 0.75 0.75 0.75 1 ]
+   ]
+   prop "prop_blockade_DNARoot" [
+    code [ "prop_blockade" ]
+    pos [ -13.42 -113.71 11 ]
+    nhpr [ 180 0 0 ]
+    scale [ 0.42 0.42 0.42 ]
    ]
    prop "neighborhood_sign_BR_DNARoot" [
     code [ "neighborhood_sign_BR" ]
