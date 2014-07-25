@@ -1253,7 +1253,7 @@ group "donaldsDock" [
    nhpr [ -90 0 0 ]
    prop "animated_prop_HQPeriscopeAnimatedProp_DNARoot" [
     code [ "animated_prop_HQPeriscopeAnimatedProp" ]
-    pos [ 7.10 -7.60 14.07 ]
+    pos [ 7.17 -7.67 14.07 ]
     nhpr [ 110 0 0 ]
     scale [ 4 4 4 ]
    ]

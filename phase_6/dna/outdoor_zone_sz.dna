@@ -85,41 +85,11 @@ group "daisysGarden" [
    ]
   ]
   node "buildings" [
-   prop "prop_chip_dale_enterance_DNARoot" [
+   prop "linktunnel_gz_17000_DNARoot" [
     code [ "prop_chip_dale_enterance" ]
     pos [ -264.137 -15.4392 0.227776 ]
     nhpr [ 105 -0.422594 0.309814 ]
     scale [ 1.0546 1.0546 1.0546 ]
-   ]
-   prop "prop_construction_sign_DNARoot" [
-    code [ "prop_construction_sign" ]
-    pos [ -250.164 -11.974 0.40 ]
-    nhpr [ 105 -0.422594 0.309814 ]
-   ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ -260 -18 0.236 ]
-    nhpr [ 243 0 0 ]
-   ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ -270 -4 0.236 ]
-    nhpr [ 134 0 0 ]
-   ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ -266 -16 0.236 ]
-    nhpr [ 112 0 0 ]
-   ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ -44 -157 0.110 ]
-    nhpr [ 112 0 0 ]
-   ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ -54 -152 0.110 ]
-    nhpr [ 112 0 0 ]
    ]
    prop "linktunnel_dd_1000_DNARoot" [
     code [ "prop_outdoor_zone_entrance" ]

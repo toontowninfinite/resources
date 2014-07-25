@@ -160,12 +160,6 @@ group "donaldsDreamland" [
     pos [ 142.443 27.4259 -14.9994 ]
     nhpr [ 30 0 0 ]
    ]
-   prop "prop_blockade_DNARoot" [
-    code [ "prop_blockade" ]
-    pos [ 42.767 97.60 4 ]
-    nhpr [ 0 0 0 ]
-	scale [ 0.42 0.42 0.42 ]
-   ]
   ]
   node "group_0" [
    node "group_1" [
@@ -1169,6 +1163,7 @@ group "donaldsDreamland" [
    nhpr [ -45.0368 0.977402 1.29666 ]
    scale [ 5.82921 5.82921 5.82921 ]
   ]
+  /* TODO: Re-add signs at a later date.
   prop "neighborhood_sign_cashBotHQ_DNARoot" [
    code [ "neighborhood_sign_cashBotHQ" ]
    pos [ 9.66689 98.2549 0.00108576 ]
@@ -1181,6 +1176,7 @@ group "donaldsDreamland" [
    nhpr [ 0 0 0 ]
    color [ 0.5 0.5 0.5 1 ]
   ]
+  */
   prop "prop_party_gate_DNARoot" [
    code [ "prop_party_gate" ]
    pos [ 82.6013 27.5211 -14.99 ]

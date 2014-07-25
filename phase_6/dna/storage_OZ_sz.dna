@@ -16,16 +16,6 @@ place_model "phase_6/models/golf/outdoor_zone_entrance" [
 place_model "phase_6/models/golf/golf_construction_sign" [
 	store_node [ "prop" "prop_golf_construction_sign" "" ]
 	]
-	
-place_model "phase_4/models/props/construction_sign.bam" [
-	store_node [ "prop" "prop_construction_sign" "" ]
-	]
-
-place_model "phase_3.5/models/props/barrier_cone.bam" [
-	store_node [ "prop" "prop_barrier_cone" "" ]
-	]
-	
-	
 
 place_model "phase_6/models/golf/golf_gazebo" [
 	store_node [ "prop" "prop_golf_gazebo" "" ]

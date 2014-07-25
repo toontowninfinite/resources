@@ -9,7 +9,7 @@ node "interior" [
   pos [ -23.618 16.1823 0 ]
   hpr [ 90 0 0 ]
  ]
- prop "closetBoy_DNARoot" [
+/* prop "closetBoy_DNARoot" [
   code [ "closetBoy" ]
   pos [ -22.5835 21.8784 0 ]
   hpr [ 90 0.0102469 -0.0154266 ]
@@ -18,7 +18,7 @@ node "interior" [
   code [ "jellybeanBank" ]
   pos [ -20.7044 6.43199 -0.0964737 ]
   hpr [ 120 -0.0501863 -0.0440521 ]
- ]
+ ] */
  prop "rugB_DNARoot" [
   code [ "rugB" ]
   pos [ -20.2738 6.77053 0 ]
