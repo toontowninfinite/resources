@@ -863,7 +863,7 @@ group "donaldsDock" [
    landmark_building "tb8:toon_landmark_DD_clothes_shop_DNARoot" [
     code [ "toon_landmark_DD_clothes_shop" ]
     building_type [ "clotheshop" ]
-    title [ " Shop" ]
+    title [ "Clothing Shop" ]
     pos [ -88.0457 115.078 3.25565 ]
     nhpr [ 45 0 0 ]
     sign [
