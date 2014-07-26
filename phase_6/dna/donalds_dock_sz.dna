@@ -863,13 +863,9 @@ group "donaldsDock" [
    landmark_building "tb8:toon_landmark_DD_clothes_shop_DNARoot" [
     code [ "toon_landmark_DD_clothes_shop" ]
     building_type [ "clotheshop" ]
-    title [ "Clothing Shop" ]
+    title [ " Shop" ]
     pos [ -88.0457 115.078 3.25565 ]
     nhpr [ 45 0 0 ]
-    door [
-     code [ "door_double_clothesshop_ur" ]
-     color [ 0.91 0.34 0.34 1 ]
-    ]
     sign [
      pos [ 0 0 -0.5 ]
      baseline [
@@ -919,6 +915,10 @@ group "donaldsDock" [
        letters [ "e" ]
       ]
      ]
+    ]
+    door [
+     code [ "door_double_clothesshop_ur" ]
+     color [ 0.91 0.34 0.34 1 ]
     ]
    ]
    prop "linktunnel_oz_6000_DNARoot" [

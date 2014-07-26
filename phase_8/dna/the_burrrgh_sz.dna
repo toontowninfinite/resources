@@ -983,10 +983,6 @@ group "theBurrrgh" [
     title [ "Clothing Shop" ]
     pos [ -127.028 -116.91 6.16666 ]
     nhpr [ 130 0 0 ]
-    door [
-     code [ "door_double_clothesshop_ur" ]
-     color [ 0 0.87 0.69 1 ]
-    ]
     sign [
      baseline [
       code [ "mickey" ]
@@ -1036,6 +1032,10 @@ group "theBurrrgh" [
        letters [ "e" ]
       ]
      ]
+    ]
+    door [
+     code [ "door_double_clothesshop_ur" ]
+     color [ 0 0.87 0.69 1 ]
     ]
    ]
    prop "linktunnel_br_3301_DNARoot" [

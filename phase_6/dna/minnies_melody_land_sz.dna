@@ -732,10 +732,6 @@ group "minniesMelodyLand" [
     title [ "Clothing Shop" ]
     pos [ -54.9522 -88.7614 6.5 ]
     nhpr [ 131 0 0 ]
-    door [
-     code [ "door_double_clothesshop_ur" ]
-     color [ 1 0.64 0.74 1 ]
-    ]
     sign [
      baseline [
       code [ "mickey" ]
@@ -785,6 +781,10 @@ group "minniesMelodyLand" [
        letters [ "e" ]
       ]
      ]
+    ]
+    door [
+     code [ "door_double_clothesshop_ur" ]
+     color [ 1 0.64 0.74 1 ]
     ]
    ]
    flat_building "sz0:random_DNARoot" [
