@@ -973,10 +973,6 @@ group "daisysGarden" [
     title [ "Clothing Shop" ]
     pos [ 85 40 0 ]
     nhpr [ -105 0 0 ]
-    door [
-     code [ "door_double_clothesshop_ur" ]
-     color [ 1 0.55 0.65 1 ]
-    ]
     sign [
      baseline [
       code [ "mickey" ]
@@ -1026,6 +1022,10 @@ group "daisysGarden" [
        letters [ "e" ]
       ]
      ]
+    ]
+    door [
+     code [ "door_double_clothesshop_ur" ]
+     color [ 1 0.55 0.65 1 ]
     ]
    ]
    prop "linktunnel_dg_5301_DNARoot" [

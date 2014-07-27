@@ -609,10 +609,6 @@ group "toontownCentral" [
     title [ "Toontown Bank" ]
     pos [ 57.1796 38.6656 4 ]
     nhpr [ 0 0 0 ]
-    door [
-     code [ "door_double_round_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]
     sign [
      color [ 1 1 0.776471 1 ]
      pos [ 0 0 -0.64 ]
@@ -639,6 +635,10 @@ group "toontownCentral" [
        letters [ "k" ]
       ]
      ]
+    ]
+    door [
+     code [ "door_double_round_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
     ]
    ]
    landmark_building "sz16:toon_landmark_TT_school_house_DNARoot" [
@@ -739,10 +739,6 @@ group "toontownCentral" [
     title [ "Clothing Shop" ]
     pos [ 106.265 160.831 3 ]
     nhpr [ -30 0 0 ]
-    door [
-     code [ "door_double_clothesshop_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]
     sign [
      baseline [
       code [ "mickey" ]
@@ -790,16 +786,16 @@ group "toontownCentral" [
       ]
      ]
     ]
+    door [
+     code [ "door_double_clothesshop_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
+    ]	
    ]
    landmark_building "sz13:toon_landmark_TT_toonhall_DNARoot" [
     code [ "toon_landmark_TT_toonhall" ]
     title [ "Toon Hall" ]
     pos [ 116.66 24.29 4 ]
     nhpr [ -90 0 -0 ]
-    door [
-     code [ "door_double_round_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]    
     sign [
      pos [ 0 0 -1.15 ]
      scale [ 1.1 1 1.1 ]
@@ -843,6 +839,10 @@ group "toontownCentral" [
       ]
      ]
     ]
+     door [
+      code [ "door_double_round_ur" ]
+      color [ 0.88 0.45 0.38 1 ]
+    ]    
    ]
   ]
   prop "toontown_central_DNARoot" [
