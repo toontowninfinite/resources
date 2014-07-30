@@ -1,0 +1,97 @@
+group "chestnutPark" [
+ visgroup "7000:safe_zone" [
+  vis [   "7000:safe_zone"   ]
+  node "buildings" [
+   prop "linktunnel_oz_6000_DNARoot" [
+    code [ "prop_outdoor_zone_entrance" ]
+	pos [ 86.7098 148.899 0.0205739 ]
+	nhpr [ 321.091 0 0 ]
+	sign [
+	 code [ "DD_sign2" ]
+	 pos [ 0 0 0 ]
+	 nhpr [ 0 0 -3.0 ]
+	 scale [ 1.85 1 1.35 ]
+	 baseline [
+	  code [ "TT_Comedy" ]
+      color [ 0.439216 0.247059 0.184314 1 ]
+      pos [ 0 0 -0.2 ]
+      scale [ 1.6 1 1.7 ]
+      wiggle [ 7 ]
+      stumble [ 0.1 ]
+	  text [
+       letters [ "P" ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "y" ]
+      ]
+      text [
+       letters [ "g" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "u" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+     ]
+     baseline [
+      code [ "TT_Comedy" ]
+      color [ 0.439216 0.247059 0.184314 1 ]
+      pos [ 0 0 -1.4 ]
+      scale [ 1.2 1 1.2 ]
+      wiggle [ 3 ]
+      stomp [ 0.0367716 ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ "c" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ "c" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+	]
+   ]
+  ]
+ ]
+]
