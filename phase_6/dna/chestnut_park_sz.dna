@@ -13,7 +13,7 @@ group "chestnutPark" [
 	 scale [ 1.85 1 1.35 ]
 	 baseline [
 	  code [ "TT_Comedy" ]
-      color [ 0.439216 0.247059 0.184314 1 ]
+      color [ 0.3 0.3 0.3 1 ]
       pos [ 0 0 -0.2 ]
       scale [ 1.6 1 1.7 ]
       wiggle [ 7 ]
@@ -51,7 +51,7 @@ group "chestnutPark" [
      ]
      baseline [
       code [ "TT_Comedy" ]
-      color [ 0.439216 0.247059 0.184314 1 ]
+      color [ 0.3 0.3 0.3 1 ]
       pos [ 0 0 -1.4 ]
       scale [ 1.2 1 1.2 ]
       wiggle [ 3 ]

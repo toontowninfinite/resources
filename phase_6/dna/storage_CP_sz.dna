@@ -9,7 +9,7 @@ place_model "phase_6/models/golf/chip_dale_enterance" [
 	store_node [ "prop" "prop_chip_dale_enterance" "" ]
 	]
 
-place_model "phase_6/models/golf/outdoor_zone_entrance" [
+place_model "phase_6/models/modules/unpainted_aa_tunnel" [
 	store_node [ "prop" "prop_outdoor_zone_entrance" "" ]
 	]
 
