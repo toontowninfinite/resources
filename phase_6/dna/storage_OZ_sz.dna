@@ -1,9 +1,15 @@
 place_model "phase_6/models/golf/golf_outdoor_zone" [
   	store_node [ "prop" "outdoor_zone" "" ]
  	]
+place_model "phase_6/models/props/tti_painters_wanted_sign" [
+	store_node [ "prop" "sign_painters_wanted" "" ]
+	]
+place_model "phase_5/models/props/ladder2" [
+	store_node [ "prop" "painters_ladder" "" ]
+	]
 place_model "phase_8/models/modules/safe_zone_tunnel_DG" [
 	store_node [ "prop" "prop_safe_zone_tunnel" ]
-        ]
+    ]
 
 place_model "phase_6/models/golf/chip_dale_enterance" [
 	store_node [ "prop" "prop_chip_dale_enterance" "" ]
