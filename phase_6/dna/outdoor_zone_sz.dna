@@ -7,16 +7,6 @@ group "daisysGarden" [
     pos [ -60 -20 0 ]
     nhpr [ 0 0 0 ]
    ]
-   prop "painters_wanted_DNARoot" [
-    code [ "sign_painters_wanted" ]
-	pos [ -57 -129.613 0.025 ]
-	nhpr [ 160 0 0 ]
-   ]
-   prop "painters_ladder_DNARoot" [
-    code [ "painters_ladder" ]
-	pos [ -36.460 -130.828 0.30 ]
-	nhpr [ 61 -90 0 ]
-   ]
    flat_building "tb0:random_DNARoot" [
     pos [ 94.71 174.42 10.54 ]
     nhpr [ -143 0 0 ]
