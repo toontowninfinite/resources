@@ -5,7 +5,7 @@ place_model "phase_6/models/props/tti_painters_wanted_sign" [
 	store_node [ "prop" "sign_painters_wanted" "" ]
 	]
 place_model "phase_5/models/props/ladder2" [
-	store_node [ "prop" "painters_ladder" "" ]
+	store_node [ "prop" "painters_ladder" "!shadow" ]
 	]
 place_model "phase_8/models/modules/safe_zone_tunnel_DG" [
 	store_node [ "prop" "prop_safe_zone_tunnel" ]
