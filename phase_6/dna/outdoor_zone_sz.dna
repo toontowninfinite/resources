@@ -220,7 +220,7 @@ group "daisysGarden" [
      letters [ "C" ]
     ]
     text [
-     letters [ "h" ]
+     letters [ " " ]
     ]
     text [
      letters [ " " ]
