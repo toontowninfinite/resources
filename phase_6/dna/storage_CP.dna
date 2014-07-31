@@ -127,7 +127,7 @@ hood_model "phase_8/models/modules/hqDG" [
 
 store_font [ "font" "TT_Comedy" "phase_3/models/fonts/Comedy" ]
 
-hood_model "phase_6/models/props/signs_DD" [
+hood_model "phase_6/models/props/unpainted_signs_DD" [
 	store_node [ "sign" "DD_sign1" ]
 	store_node [ "sign" "DD_sign2" ]
 	store_node [ "sign" "DD_sign3" ]
