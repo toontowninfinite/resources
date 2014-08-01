@@ -18,6 +18,10 @@ place_model "phase_6/models/modules/safe_zone_tunnel_MM" [
 place_model "phase_6/models/modules/trolley_station_MM" [
 	store_node [ "prop" "prop_trolley_station" ]
 	]
+	
+place_model "phase_4/models/modules/blockade" [
+	store_node [ "prop" "prop_blockade" "" ]
+        ]
 
 place_model "phase_6/models/modules/gagShop_MM" [
 	store_node [ "toon_landmark" "toon_landmark_MM_gag_shop" "" ]

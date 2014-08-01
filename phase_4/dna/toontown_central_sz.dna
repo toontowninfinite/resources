@@ -609,10 +609,6 @@ group "toontownCentral" [
     title [ "Toontown Bank" ]
     pos [ 57.1796 38.6656 4 ]
     nhpr [ 0 0 0 ]
-    door [
-     code [ "door_double_round_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]
     sign [
      color [ 1 1 0.776471 1 ]
      pos [ 0 0 -0.64 ]
@@ -639,6 +635,10 @@ group "toontownCentral" [
        letters [ "k" ]
       ]
      ]
+    ]
+    door [
+     code [ "door_double_round_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
     ]
    ]
    landmark_building "sz16:toon_landmark_TT_school_house_DNARoot" [
@@ -739,10 +739,6 @@ group "toontownCentral" [
     title [ "Clothing Shop" ]
     pos [ 106.265 160.831 3 ]
     nhpr [ -30 0 0 ]
-    door [
-     code [ "door_double_clothesshop_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]
     sign [
      baseline [
       code [ "mickey" ]
@@ -790,16 +786,16 @@ group "toontownCentral" [
       ]
      ]
     ]
+    door [
+     code [ "door_double_clothesshop_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
+    ]	
    ]
    landmark_building "sz13:toon_landmark_TT_toonhall_DNARoot" [
     code [ "toon_landmark_TT_toonhall" ]
     title [ "Toon Hall" ]
     pos [ 116.66 24.29 4 ]
     nhpr [ -90 0 -0 ]
-    door [
-     code [ "door_double_round_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]    
     sign [
      pos [ 0 0 -1.15 ]
      scale [ 1.1 1 1.1 ]
@@ -843,6 +839,10 @@ group "toontownCentral" [
       ]
      ]
     ]
+     door [
+      code [ "door_double_round_ur" ]
+      color [ 0.88 0.45 0.38 1 ]
+    ]    
    ]
   ]
   prop "toontown_central_DNARoot" [
@@ -897,6 +897,43 @@ group "toontownCentral" [
    pos [ -60.94 -8.8 -2 ]
    nhpr [ -178 0 0 ]
   ]
+  prop "prop_blockade_DNARoot" [
+   code [ "prop_blockade" ]
+   pos [ -120.49 70.90 4.14 ]
+   nhpr [ 48.81 0 0 ]
+   scale [ 0.42 0.42 0.42 ]
+  ]
+  prop "prop_blockade_DNARoot" [
+   code [ "prop_blockade" ]
+   pos [ 75.95 34.77 9.01 ]
+   nhpr [ 0 0 0 ]
+   scale [ 0.60 0.60 0.60 ]
+  ]
+   prop "prop_barrier_cone_DNARoot" [
+    code [ "prop_barrier_cone" ]
+    pos [ -115 72 0.525 ]
+    nhpr [ 112 0 0 ]
+   ]
+   prop "prop_barrier_cone_DNARoot" [
+    code [ "prop_barrier_cone" ]
+    pos [ -123.265 65.770 0.525 ]
+    nhpr [ 54 0 0 ]
+   ]
+   prop "prop_barrier_cone_DNARoot" [
+    code [ "prop_barrier_cone" ]
+    pos [ 83 26 4.025 ]
+    nhpr [ 52 0 0 ]
+   ]
+   prop "prop_barrier_cone_DNARoot" [
+    code [ "prop_barrier_cone" ]
+    pos [ 76 27 4.025 ]
+    nhpr [ 43 0 0 ]
+   ]
+   prop "prop_barrier_cone_DNARoot" [
+    code [ "prop_barrier_cone" ]
+    pos [ 68 25 4.025 ]
+    nhpr [ 19 0 0 ]
+   ]
   prop "prop_tree_small_ur_DNARoot" [
    code [ "prop_tree_small_ur" ]
    pos [ 119.621 -127.865 2.49998 ]
