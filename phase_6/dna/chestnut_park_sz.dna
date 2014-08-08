@@ -92,6 +92,12 @@ group "chestnutPark" [
      ]
 	]
    ]
+   prop "prop_chestnut_park_DNARoot" [
+    code [ "prop_chestnut_park" ]
+    pos [ 0 0 0 ]
+    nhpr [ 0 0 0 ]
+    scale [ 1 1 1 ]
+   ]
   ]
  ]
 ]

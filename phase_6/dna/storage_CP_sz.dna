@@ -21,6 +21,10 @@ place_model "phase_4/models/props/construction_sign.bam" [
 	store_node [ "prop" "prop_construction_sign" "" ]
 	]
 
+place_model "phase_6/models/neighborhoods/chestnut_park.bam" [
+	store_node [ "prop" "prop_chestnut_park" "" ]
+	]
+
 place_model "phase_3.5/models/props/barrier_cone.bam" [
 	store_node [ "prop" "prop_barrier_cone" "" ]
 	]
