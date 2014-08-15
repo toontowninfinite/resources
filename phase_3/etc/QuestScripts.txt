@@ -381,7 +381,7 @@ LOCAL_CHAT_CONFIRM npc QuestScriptTutorialBlocker_3 blockerDialogue_03
 OBSCURE_CHAT 1 0
 SHOW chatScButton
 WAIT 0.6 
-ARROWS_ON -0.92 0.91 180 -1.12 0.74 -90 
+ARROWS_ON -1.3644 0.91 180 -1.5644 0.74 -90 
 LOCAL_CHAT_PERSIST npc QuestScriptTutorialBlocker_4 blockerDialogue_04
 WAIT_EVENT "enterSpeedChat"
 ARROWS_OFF
