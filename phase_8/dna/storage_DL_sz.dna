@@ -10,6 +10,10 @@ place_model "phase_8/models/modules/safe_zone_tunnel_DL" [
 	store_node [ "prop" "prop_safe_zone_tunnel" ]
         ]
 
+place_model "phase_4/models/modules/blockade" [
+	store_node [ "prop" "prop_blockade" "" ]
+        ]
+
 place_model "phase_8/models/modules/trolley_station_DL" [
 	store_node [ "prop" "prop_trolley_station" ]
 	]

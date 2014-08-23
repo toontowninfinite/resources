@@ -17,6 +17,12 @@ group "donaldsDreamland" [
     pos [ 63.7 88.11 0 ]
     nhpr [ -180 0 0 ]
    ]
+  prop "prop_blockade_DNARoot" [
+   code [ "prop_blockade" ]
+   pos [ 42.331 97.533 4.14 ]
+   nhpr [ -361.204 0 0 ]
+   scale [ 0.42 0.42 0.42 ]
+  ]
    prop "prop_DL_post_one_light_DNARoot" [
     code [ "prop_DL_post_one_light" ]
     pos [ 62.5 -88.22 0 ]
@@ -159,12 +165,6 @@ group "donaldsDreamland" [
     code [ "prop_DL_hydrant" ]
     pos [ 142.443 27.4259 -14.9994 ]
     nhpr [ 30 0 0 ]
-   ]
-   prop "prop_blockade_DNARoot" [
-    code [ "prop_blockade" ]
-    pos [ 42.767 97.60 4 ]
-    nhpr [ 0 0 0 ]
-	scale [ 0.42 0.42 0.42 ]
    ]
   ]
   node "group_0" [
@@ -776,10 +776,6 @@ group "donaldsDreamland" [
      title [ "Clothing Shop" ]
      pos [ -59.3422 100.432 0 ]
      nhpr [ 0 0 0 ]
-     door [
-      code [ "door_double_clothesshop_ur" ]
-      color [ 0.415686 0.27451 0.168627 1 ]
-     ]
      sign [
       baseline [
        code [ "mickey" ]
@@ -829,6 +825,10 @@ group "donaldsDreamland" [
         letters [ "e" ]
        ]
       ]
+     ]
+     door [
+      code [ "door_double_clothesshop_ur" ]
+      color [ 0.415686 0.27451 0.168627 1 ]
      ]
     ]
     flat_building "random20_DNARoot" [

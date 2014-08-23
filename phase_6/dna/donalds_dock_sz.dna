@@ -866,10 +866,6 @@ group "donaldsDock" [
     title [ "Clothing Shop" ]
     pos [ -88.0457 115.078 3.25565 ]
     nhpr [ 45 0 0 ]
-    door [
-     code [ "door_double_clothesshop_ur" ]
-     color [ 0.91 0.34 0.34 1 ]
-    ]
     sign [
      pos [ 0 0 -0.5 ]
      baseline [
@@ -919,6 +915,10 @@ group "donaldsDock" [
        letters [ "e" ]
       ]
      ]
+    ]
+    door [
+     code [ "door_double_clothesshop_ur" ]
+     color [ 0.91 0.34 0.34 1 ]
     ]
    ]
    prop "linktunnel_oz_6000_DNARoot" [
@@ -1192,6 +1192,12 @@ group "donaldsDock" [
     nhpr [ 135 0 0 ]
     scale [ 0.7 0.7 0.7 ]
    ]
+  prop "prop_blockade_DNARoot" [
+   code [ "prop_blockade" ]
+   pos [ 39.004 -84.604 7.20 ]
+   nhpr [ 198.286 0 0 ]
+   scale [ 0.42 0.42 0.42 ]
+  ]
    prop "prop_palm_tree_topflat_DNARoot" [
     code [ "prop_palm_tree_topflat" ]
     pos [ -100 85 3.2338 ]

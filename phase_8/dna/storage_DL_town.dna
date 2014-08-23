@@ -100,3 +100,7 @@ place_model "phase_5/models/props/billboard_ads" [
 place_model "phase_8/models/modules/DL_pond" [
 	store_node [ "street" "street_DL_pond" "" ]
 	]
+
+place_model "phase_4/models/props/construction_sign" [
+	store_node [ "prop" "prop_construction_sign" "" ]
+	]

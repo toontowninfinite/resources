@@ -19,6 +19,12 @@ group "theBurrrgh" [
     nhpr [ 146 0 0 ]
     color [ 0.59 1 0.92 1 ]
    ]
+  prop "prop_blockade_DNARoot" [
+   code [ "prop_blockade" ]
+   pos [ -156.039 -2.215 10.14 ]
+   nhpr [ -269 0 0 ]
+   scale [ 0.42 0.42 0.42 ]
+  ]
    prop "fishing_spot_DNARoot" [
     code [ "fishing_spot" ]
     pos [ -66.3804 -33.1704 2.5 ]
@@ -977,10 +983,6 @@ group "theBurrrgh" [
     title [ "Clothing Shop" ]
     pos [ -127.028 -116.91 6.16666 ]
     nhpr [ 130 0 0 ]
-    door [
-     code [ "door_double_clothesshop_ur" ]
-     color [ 0 0.87 0.69 1 ]
-    ]
     sign [
      baseline [
       code [ "mickey" ]
@@ -1030,6 +1032,10 @@ group "theBurrrgh" [
        letters [ "e" ]
       ]
      ]
+    ]
+    door [
+     code [ "door_double_clothesshop_ur" ]
+     color [ 0 0.87 0.69 1 ]
     ]
    ]
    prop "linktunnel_br_3301_DNARoot" [
