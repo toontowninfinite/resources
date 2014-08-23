@@ -607,6 +607,7 @@ group "toontownCentral" [
    ]
    landmark_building "sz14:toon_landmark_TT_bank_DNARoot" [
     code [ "toon_landmark_TT_bank" ]
+    building_type [ "bank" ]
     title [ "Toontown Bank" ]
     pos [ 57.1796 38.6656 4 ]
     nhpr [ 0 0 0 ]
@@ -877,12 +878,6 @@ group "toontownCentral" [
    nhpr [ 48.81 0 0 ]
    scale [ 0.42 0.42 0.42 ]
   ]
-  prop "prop_blockade_DNARoot" [
-   code [ "prop_blockade" ]
-   pos [ 75.95 34.77 9.01 ]
-   nhpr [ 0 0 0 ]
-   scale [ 0.60 0.60 0.60 ]
-  ]
    prop "prop_barrier_cone_DNARoot" [
     code [ "prop_barrier_cone" ]
     pos [ -115 72 0.525 ]
@@ -892,21 +887,6 @@ group "toontownCentral" [
     code [ "prop_barrier_cone" ]
     pos [ -123.265 65.770 0.525 ]
     nhpr [ 54 0 0 ]
-   ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ 83 26 4.025 ]
-    nhpr [ 52 0 0 ]
-   ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ 76 27 4.025 ]
-    nhpr [ 43 0 0 ]
-   ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ 68 25 4.025 ]
-    nhpr [ 19 0 0 ]
    ]
   prop "prop_tree_small_ur_DNARoot" [
    code [ "prop_tree_small_ur" ]
