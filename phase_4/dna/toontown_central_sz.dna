@@ -529,6 +529,7 @@ group "toontownCentral" [
    ]
    landmark_building "sz18:toon_landmark_TT_library_DNARoot" [
     code [ "toon_landmark_TT_library" ]
+    building_type [ "library" ]
     title [ "Toontown Library" ]
     pos [ 91.4475 -44.9255 4 ]
     nhpr [ 180 0 0 ]
@@ -606,13 +607,10 @@ group "toontownCentral" [
    ]
    landmark_building "sz14:toon_landmark_TT_bank_DNARoot" [
     code [ "toon_landmark_TT_bank" ]
+    building_type [ "bank" ]
     title [ "Toontown Bank" ]
     pos [ 57.1796 38.6656 4 ]
     nhpr [ 0 0 0 ]
-    door [
-     code [ "door_double_round_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]
     sign [
      color [ 1 1 0.776471 1 ]
      pos [ 0 0 -0.64 ]
@@ -639,6 +637,10 @@ group "toontownCentral" [
        letters [ "k" ]
       ]
      ]
+    ]
+    door [
+     code [ "door_double_round_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
     ]
    ]
    landmark_building "sz16:toon_landmark_TT_school_house_DNARoot" [
@@ -739,10 +741,6 @@ group "toontownCentral" [
     title [ "Clothing Shop" ]
     pos [ 106.265 160.831 3 ]
     nhpr [ -30 0 0 ]
-    door [
-     code [ "door_double_clothesshop_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]
     sign [
      baseline [
       code [ "mickey" ]
@@ -790,16 +788,16 @@ group "toontownCentral" [
       ]
      ]
     ]
+    door [
+     code [ "door_double_clothesshop_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
+    ]	
    ]
    landmark_building "sz13:toon_landmark_TT_toonhall_DNARoot" [
     code [ "toon_landmark_TT_toonhall" ]
     title [ "Toon Hall" ]
     pos [ 116.66 24.29 4 ]
     nhpr [ -90 0 -0 ]
-    door [
-     code [ "door_double_round_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]    
     sign [
      pos [ 0 0 -1.15 ]
      scale [ 1.1 1 1.1 ]
@@ -843,6 +841,10 @@ group "toontownCentral" [
       ]
      ]
     ]
+     door [
+      code [ "door_double_round_ur" ]
+      color [ 0.88 0.45 0.38 1 ]
+    ]    
    ]
   ]
   prop "toontown_central_DNARoot" [
@@ -870,6 +872,22 @@ group "toontownCentral" [
    pos [ -60.94 -8.8 -2 ]
    nhpr [ -178 0 0 ]
   ]
+  prop "prop_blockade_DNARoot" [
+   code [ "prop_blockade" ]
+   pos [ -120.49 70.90 4.14 ]
+   nhpr [ 48.81 0 0 ]
+   scale [ 0.42 0.42 0.42 ]
+  ]
+   prop "prop_barrier_cone_DNARoot" [
+    code [ "prop_barrier_cone" ]
+    pos [ -115 72 0.525 ]
+    nhpr [ 112 0 0 ]
+   ]
+   prop "prop_barrier_cone_DNARoot" [
+    code [ "prop_barrier_cone" ]
+    pos [ -123.265 65.770 0.525 ]
+    nhpr [ 54 0 0 ]
+   ]
   prop "prop_tree_small_ur_DNARoot" [
    code [ "prop_tree_small_ur" ]
    pos [ 119.621 -127.865 2.49998 ]
@@ -1132,16 +1150,6 @@ group "toontownCentral" [
      count [ 1 ]
     ]
    ]
-  ]
-  prop "prop_toontown_central_fountain_DNARoot" [
-   code [ "prop_toontown_central_fountain" ]
-   pos [ 93.2057 -106.482 2.50002 ]
-   nhpr [ 0 0 0 ]
-  ]
-  prop "prop_mickey_on_horse_DNARoot" [
-   code [ "prop_mickey_on_horse" ]
-   pos [ 73.6829 121.026 2.49996 ]
-   nhpr [ 0 0 0 ]
   ]
   prop "prop_post_one_light_DNARoot" [
    code [ "prop_post_one_light" ]

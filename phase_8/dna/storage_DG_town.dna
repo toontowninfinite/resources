@@ -95,3 +95,7 @@ place_model "phase_6/models/cogHQ/WaterTowerSimple" [
 place_model "phase_4/models/props/neighborhood_sign_sellBotHQ" [
 	store_node [ "prop" "neighborhood_sign_sellBotHQ" "" ]
 	]
+	
+place_model "phase_4/models/props/construction_sign" [
+	store_node [ "prop" "prop_construction_sign" "" ]
+	]

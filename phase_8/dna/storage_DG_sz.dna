@@ -26,6 +26,10 @@ place_model "phase_8/models/modules/PetShopExterior_DG" [
 	store_node [ "toon_landmark" "toon_landmark_DG_pet_shop" "" ]
         ]
 
+place_model "phase_4/models/modules/blockade" [
+	store_node [ "prop" "prop_blockade" "" ]
+        ]
+
 place_model "phase_8/models/modules/clothshopDG" [
 	store_node [ "toon_landmark" "toon_landmark_DG_clothes_shop" "" ]
         ]
