@@ -861,7 +861,7 @@ group "theBurrrgh" [
  visgroup "3103" [
   vis [   "3102"   "3103"   "3104"   "3105"   "3106"   "3101"   "3127"   "3128"   "3129"   ]
   suit_edge [ 25 26 ]
-  suit_edge [ 444 445 ]
+  suit_edge [ 444 25 ]
   suit_edge [ 445 32 ]
   suit_edge [ 445 446 ]
   suit_edge [ 446 445 ]
