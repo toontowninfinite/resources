@@ -43,7 +43,7 @@ store_suit_point [ 34, STREET_POINT, 85 83 3.025 ]
  
 group "toontownCentral" [
  visgroup "2000" [
-  vis [   "2000 2001 2002 2003 2004"   ]
+  vis [ "2000" "2001" "2002" "2003" "2004" ]
   suit_edge [ 1 2 ]
   suit_edge [ 3 4 ]
   
@@ -81,24 +81,24 @@ group "toontownCentral" [
    nhpr [ -15 0 0 ]
   ]
  visgroup "2001" [
-  vis [ "2000" "2001 2002 2003 2004"]
+  vis [ "2000" "2001" "2002" "2003" "2004" ]
   suit_edge [ 2 3 ]
   suit_edge [ 5 6 ]
   battle_cell [ 20 20 -24 -4 0 ]
   ]
  visgroup "2002" [
-  vis [ "2000" "2001 2002 2003 2004"]
+  vis [ "2000" "2001" "2002" "2003" "2004" ]
   suit_edge [ 4 5 ]
   battle_cell [ 20 20 -51.5 67.5 0.525 ]
   ]
  visgroup "2003" [
-  vis [ "2000" "2001 2002 2003 2004"]
+  vis [ "2000" "2001" "2002" "2003" "2004" ]
   suit_edge [ 10 11 ]
   suit_edge [ 11 12 ]
   battle_cell [ 20 20 -116 -57 0 ]
   ]
  visgroup "2004" [
-  vis [ "2000" "2001 2002 2003 2004"]
+  vis [ "2000" "2001" "2002" "2003" "2004" ]
   battle_cell [ 20 20 64 1 4.025 ]
   ]
   group "fishing_pond_1" [
