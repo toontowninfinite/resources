@@ -1,10 +1,104 @@
+store_suit_point [ 1, STREET_POINT, -47 -65 0.025 ]
+store_suit_point [ 2, STREET_POINT, -13 -33 0.025 ]
+store_suit_point [ 3, STREET_POINT, -13 25 0.025 ]
+store_suit_point [ 4, STREET_POINT, -24 62 0.025 ]
+store_suit_point [ 5, STREET_POINT, -79 73 0.025 ]
+store_suit_point [ 6, STREET_POINT, -122 49 0.025 ]
+store_suit_point [ 7, STREET_POINT, -121 -20 0.025 ]
+store_suit_point [ 8, STREET_POINT, -121 -39 0.025 ]
+store_suit_point [ 9, STREET_POINT, -121 -40 0.525 ]
+store_suit_point [ 10, STREET_POINT, -112 -74 0.525 ]
+store_suit_point [ 11, STREET_POINT, -99 -74 0.525 ]
+store_suit_point [ 12, STREET_POINT, -96 -73 0.025 ]
+store_suit_point [ 13, STREET_POINT, -56 -79 0.025 ]
+store_suit_point [ 14, STREET_POINT, -19 -71 0.025 ]
+store_suit_point [ 15, STREET_POINT, 1 -41 0.025 ]
+store_suit_point [ 16, STREET_POINT, 11 -32 4.038 ]
+store_suit_point [ 17, STREET_POINT, 33 -25 4.025 ]
+store_suit_point [ 18, STREET_POINT, 54 1 4.025 ]
+store_suit_point [ 19, STREET_POINT, 78 1 4.025 ]
+store_suit_point [ 20, STREET_POINT, 98 -38 4.025 ]
+store_suit_point [ 21, STREET_POINT, 101 -20 4.025 ]
+store_suit_point [ 22, STREET_POINT, 89 14 4.025 ]
+store_suit_point [ 23, STREET_POINT, 40 13 4.025 ]
+store_suit_point [ 24, STREET_POINT, 20 -14 4.025 ]
+store_suit_point [ 25, STREET_POINT, 3 -1 4.025 ]
+store_suit_point [ 26, STREET_POINT, 5 24 4.025 ]
+store_suit_point [ 27, STREET_POINT, -0 39 0.039  ]
+store_suit_point [ 28, STREET_POINT, 0.645 65.150 0.045 ]
+store_suit_point [ 29, STREET_POINT, 8 75 2.525 ]
+store_suit_point [ 30, STREET_POINT, 47 110 2.525 ]
+store_suit_point [ 31, STREET_POINT, 41 85 2.525 ]
+store_suit_point [ 32, STREET_POINT, 56 83 2.525 ]
+store_suit_point [ 33, STREET_POINT, 57 83 3.025 ]
+store_suit_point [ 34, STREET_POINT, 85 83 3.025 ]
+
+
+
+//store_suit_point [ 37, STREET_POINT, 130 61 2.525 ]
+//store_suit_point [ 37, STREET_POINT, 130 61 2.525 ]
+//store_suit_point [ 37, STREET_POINT, 130 61 2.525 ]
+//store_suit_point [ 37, STREET_POINT, 130 61 2.525 ]
+
+ 
 group "toontownCentral" [
- visgroup "2000:safe_zone" [
-  vis [   "2000:safe_zone"   ]
+ visgroup "2000" [
+  vis [   "2000 2001 2002 2003 2004"   ]
+  suit_edge [ 1 2 ]
+  suit_edge [ 2 3 ]
+  suit_edge [ 3 4 ]
+  suit_edge [ 4 5 ]
+  suit_edge [ 5 6 ]
+  suit_edge [ 6 7 ]
+  suit_edge [ 7 8 ]
+  suit_edge [ 8 9 ]
+  suit_edge [ 9 10 ]
+  suit_edge [ 10 11 ]
+  suit_edge [ 11 12 ]
+  suit_edge [ 12 13 ]
+  suit_edge [ 13 14 ]
+  suit_edge [ 14 15 ]
+  suit_edge [ 15 16 ]
+  suit_edge [ 16 17 ]
+  suit_edge [ 17 18 ]
+  suit_edge [ 18 19 ]
+  suit_edge [ 19 20 ]
+  suit_edge [ 20 21 ]
+  suit_edge [ 21 22 ]
+  suit_edge [ 22 23 ]
+  suit_edge [ 23 24 ]
+  suit_edge [ 24 25]
+  suit_edge [ 25 26 ]
+  suit_edge [ 26 27 ]
+  suit_edge [ 27 28 ]
+  suit_edge [ 28 29 ]
+  suit_edge [ 29 30 ]
+  suit_edge [ 30 31 ]
+  suit_edge [ 31 32 ]
+  suit_edge [ 32 33 ]
+  suit_edge [ 33 34 ]
+  suit_edge [ 34 1 ]
+  battle_cell [ 20 20 -30 -49 0 ]
   prop "npc_origin_3" [
    code [ "DCS" ]
    pos [ -124 -77.5 0.525 ]
    nhpr [ -15 0 0 ]
+  ]
+ visgroup "2001" [
+  vis [ "2000" "2001 2002 2003 2004"]
+  battle_cell [ 20 20 -18.5 43.5 0 ]
+  ]
+ visgroup "2002" [
+  vis [ "2000" "2001 2002 2003 2004"]
+  battle_cell [ 20 20 -100.5 61 0.525 ]
+  ]
+ visgroup "2003" [
+  vis [ "2000" "2001 2002 2003 2004"]
+  battle_cell [ 20 20 -116 -57 0 ]
+  ]
+ visgroup "2004" [
+  vis [ "2000" "2001 2002 2003 2004"]
+  battle_cell [ 20 20 64 1 4.025 ]
   ]
   group "fishing_pond_1" [
    prop "npc_fisherman_origin_0" [
@@ -529,7 +623,6 @@ group "toontownCentral" [
    ]
    landmark_building "sz18:toon_landmark_TT_library_DNARoot" [
     code [ "toon_landmark_TT_library" ]
-    building_type [ "library" ]
     title [ "Toontown Library" ]
     pos [ 91.4475 -44.9255 4 ]
     nhpr [ 180 0 0 ]
@@ -607,10 +700,13 @@ group "toontownCentral" [
    ]
    landmark_building "sz14:toon_landmark_TT_bank_DNARoot" [
     code [ "toon_landmark_TT_bank" ]
-    building_type [ "bank" ]
     title [ "Toontown Bank" ]
     pos [ 57.1796 38.6656 4 ]
     nhpr [ 0 0 0 ]
+    door [
+     code [ "door_double_round_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
+    ]
     sign [
      color [ 1 1 0.776471 1 ]
      pos [ 0 0 -0.64 ]
@@ -637,10 +733,6 @@ group "toontownCentral" [
        letters [ "k" ]
       ]
      ]
-    ]
-    door [
-     code [ "door_double_round_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
     ]
    ]
    landmark_building "sz16:toon_landmark_TT_school_house_DNARoot" [
@@ -741,6 +833,10 @@ group "toontownCentral" [
     title [ "Clothing Shop" ]
     pos [ 106.265 160.831 3 ]
     nhpr [ -30 0 0 ]
+    door [
+     code [ "door_double_clothesshop_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
+    ]
     sign [
      baseline [
       code [ "mickey" ]
@@ -788,16 +884,16 @@ group "toontownCentral" [
       ]
      ]
     ]
-    door [
-     code [ "door_double_clothesshop_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]	
    ]
    landmark_building "sz13:toon_landmark_TT_toonhall_DNARoot" [
     code [ "toon_landmark_TT_toonhall" ]
     title [ "Toon Hall" ]
     pos [ 116.66 24.29 4 ]
     nhpr [ -90 0 -0 ]
+    door [
+     code [ "door_double_round_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
+    ]    
     sign [
      pos [ 0 0 -1.15 ]
      scale [ 1.1 1 1.1 ]
@@ -841,10 +937,6 @@ group "toontownCentral" [
       ]
      ]
     ]
-     door [
-      code [ "door_double_round_ur" ]
-      color [ 0.88 0.45 0.38 1 ]
-    ]    
    ]
   ]
   prop "toontown_central_DNARoot" [
@@ -872,22 +964,6 @@ group "toontownCentral" [
    pos [ -60.94 -8.8 -2 ]
    nhpr [ -178 0 0 ]
   ]
-  prop "prop_blockade_DNARoot" [
-   code [ "prop_blockade" ]
-   pos [ -120.49 70.90 4.14 ]
-   nhpr [ 48.81 0 0 ]
-   scale [ 0.42 0.42 0.42 ]
-  ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ -115 72 0.525 ]
-    nhpr [ 112 0 0 ]
-   ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ -123.265 65.770 0.525 ]
-    nhpr [ 54 0 0 ]
-   ]
   prop "prop_tree_small_ur_DNARoot" [
    code [ "prop_tree_small_ur" ]
    pos [ 119.621 -127.865 2.49998 ]
