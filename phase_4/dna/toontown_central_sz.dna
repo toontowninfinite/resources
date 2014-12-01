@@ -1,6 +1,6 @@
 store_suit_point [ 1, STREET_POINT, -47 -65 0.025 ]
-store_suit_point [ 2, STREET_POINT, -13 -33 0.025 ]
-store_suit_point [ 3, STREET_POINT, -13 25 0.025 ]
+store_suit_point [ 2, STREET_POINT, -25 -32 0.025 ]
+store_suit_point [ 3, STREET_POINT, -23 24 0.025 ]
 store_suit_point [ 4, STREET_POINT, -24 62 0.025 ]
 store_suit_point [ 5, STREET_POINT, -79 73 0.025 ]
 store_suit_point [ 6, STREET_POINT, -122 49 0.025 ]
@@ -45,16 +45,12 @@ group "toontownCentral" [
  visgroup "2000" [
   vis [   "2000 2001 2002 2003 2004"   ]
   suit_edge [ 1 2 ]
-  suit_edge [ 2 3 ]
   suit_edge [ 3 4 ]
-  suit_edge [ 4 5 ]
-  suit_edge [ 5 6 ]
+  
   suit_edge [ 6 7 ]
   suit_edge [ 7 8 ]
   suit_edge [ 8 9 ]
   suit_edge [ 9 10 ]
-  suit_edge [ 10 11 ]
-  suit_edge [ 11 12 ]
   suit_edge [ 12 13 ]
   suit_edge [ 13 14 ]
   suit_edge [ 14 15 ]
@@ -78,7 +74,7 @@ group "toontownCentral" [
   suit_edge [ 32 33 ]
   suit_edge [ 33 34 ]
   suit_edge [ 34 1 ]
-  battle_cell [ 20 20 -30 -49 0 ]
+  battle_cell [ 20 20 -18 -56 0 ]
   prop "npc_origin_3" [
    code [ "DCS" ]
    pos [ -124 -77.5 0.525 ]
@@ -86,14 +82,19 @@ group "toontownCentral" [
   ]
  visgroup "2001" [
   vis [ "2000" "2001 2002 2003 2004"]
-  battle_cell [ 20 20 -18.5 43.5 0 ]
+  suit_edge [ 2 3 ]
+  suit_edge [ 5 6 ]
+  battle_cell [ 20 20 -24 -4 0 ]
   ]
  visgroup "2002" [
   vis [ "2000" "2001 2002 2003 2004"]
-  battle_cell [ 20 20 -100.5 61 0.525 ]
+  suit_edge [ 4 5 ]
+  battle_cell [ 20 20 -51.5 67.5 0.525 ]
   ]
  visgroup "2003" [
   vis [ "2000" "2001 2002 2003 2004"]
+  suit_edge [ 10 11 ]
+  suit_edge [ 11 12 ]
   battle_cell [ 20 20 -116 -57 0 ]
   ]
  visgroup "2004" [
